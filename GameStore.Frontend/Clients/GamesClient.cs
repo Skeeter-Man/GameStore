@@ -40,7 +40,7 @@ public class GamesClient
 
         var gameSummary = new GameSummary
         {
-            Id = games.Count,
+            Id = games.Count + 1,
             Name = game.Name,
             Genre = genre.Name,
             Price = game.Price,
